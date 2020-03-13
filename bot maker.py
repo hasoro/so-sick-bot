@@ -1,5 +1,6 @@
 import discord
 import random
+import os
 client = discord.Client()
 x=0
 @client.event
