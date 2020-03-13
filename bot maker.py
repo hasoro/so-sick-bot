@@ -28,5 +28,5 @@ async def on_message(message):
             await message.channel.send("뒷면")
 
 
-
-client.run("Njg3MTU4NzU5MDAwMTEzMTUy.XmhtDA.wB4eKqRVkL3kRfOaiyB9basn4cg")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
